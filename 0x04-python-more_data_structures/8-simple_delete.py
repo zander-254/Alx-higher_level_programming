@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-# 7-update_dictionary.py
+def simple_delete(a_dictionary, key=""):
+    """deletes a key in a dictionary."""
+    if key in a_dictionary:
+        del a_dictionary[key]
+    return a_dictionary
 
-
-def update_dictionary(a_dictionary, key, value):
-    """Replace or add key/value pairs in a dictionary."""
-    a_dictionary[key] = value
-    return (a_dictionary)
